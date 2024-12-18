@@ -1,0 +1,55 @@
+*{
+    font-family: tahoma;
+    box-sizing: border-box;/*có box-sizing không sợ ảnh hưởng width và height.*/
+}
+
+#logo{
+    color: #000;
+   font-size: 30pt;
+   font-weight: bold;
+   font-family: verdana;
+   padding: 2px 10px;
+   text-shadow: 2px 2px 10px #f90; /*text-shadow: ngang, dọc, lan, màu*/
+
+}
+.mynav{
+width: 100%;
+overflow: auto;
+border-top: 2px double blue;
+border-bottom: 2px double blue ;
+}
+.mynav a{
+    width: 12%;
+    float: left;
+    text-decoration: none;
+    padding: 12px 1px;
+    text-align: center;
+}
+.mynav a:hover{
+    background-color: aquamarine;
+}
+.mycontrol{
+          width: 400px;
+   }
+
+
+/*Boostrap*/
+.btn{
+    width: 165px;
+    border: thin solid blue;
+}
+.divleft{
+  padding: 160px 50px;
+    
+}
+
+.divright{ 
+   position: absolute;
+   left: 700px;
+   top: 220px;
+}
+     
+footer::after{
+    content: "By Me. All right reversed"
+   }
+
