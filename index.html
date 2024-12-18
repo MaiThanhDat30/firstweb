@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Index</title>
+    <script>
+        function kiemtra(){
+         var sUserName = document.getElementById("txtUserName").value;
+         var sPassword = document.getElementById("txtPassword").value;
+
+         if((sUserName != "aptech" || sPassword != "123")){
+            alert("Username or Password are incorret!");
+            document.getElementById("txtUserName").focus();
+            return false;
+         }
+            alert("Welcome " + sUserName + ", login successfully!" );
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            Logo
+        </div>
+
+        <div class="mynav">
+            <a href="./index.html">Dat</a>
+            <a href="">Utilities</a>
+            <a href="">Share</a>
+            <a href="">Knowledge</a>
+            <a href="./DatMT.html">DatMT</a>
+            <a href="./login.html">SignIn</a>
+            <a href="">About Us</a>
+        </div>
+
+    </header>
+
+    <section>
+     <div class="divleft">
+        <img src="./images/Assignment.jpg" width = "550">
+     </div>
+     <div class="divright">
+        <center>
+            <object data="./exx03_Change-Theme.html" width = "650px" height="450px"></object> <!--Thẻ object: nhúng 1 trang vào-->
+        </center>
+     </div>
+    </section>
+    
+    <footer>
+        &copy;
+    </footer>
+</body>
+
+</html>
